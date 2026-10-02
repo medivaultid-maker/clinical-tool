@@ -53,11 +53,6 @@ export default function Home() {
                 Alvarado Score
               </h3>
 
-              <p className="mt-2 max-w-md text-sm leading-6 text-slate-500">
-                Scoring system untuk membantu penilaian kemungkinan
-                appendicitis akut.
-              </p>
-
               <div className="mt-7 flex items-center gap-2 text-sm font-medium text-slate-700 transition group-hover:text-slate-950">
                 Open scoring
                 <span className="transition-transform group-hover:translate-x-1">
@@ -91,11 +86,6 @@ export default function Home() {
                 Siriraj Stroke Score
               </h3>
 
-              <p className="mt-2 max-w-md text-sm leading-6 text-slate-500">
-                Scoring system untuk membantu assessment pasien
-                dengan dugaan stroke.
-              </p>
-
               <div className="mt-7 flex items-center gap-2 text-sm font-medium text-slate-700 transition group-hover:text-slate-950">
                 Open scoring
                 <span className="transition-transform group-hover:translate-x-1">
@@ -121,7 +111,7 @@ export default function Home() {
           </h2>
 
 
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-3">
 
 
             {/* DEHIDRASI */}
