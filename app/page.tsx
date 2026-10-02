@@ -19,27 +19,6 @@ export default function Home() {
 
 
         {/* ========================= */}
-        {/* SEARCH */}
-        {/* ========================= */}
-
-        <div className="mb-14">
-          <div className="relative">
-
-            <span className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-lg text-slate-400">
-              ⌕
-            </span>
-
-            <input
-              type="text"
-              placeholder="Cari scoring atau guideline..."
-              className="w-full rounded-2xl border border-slate-200 bg-white py-4 pl-13 pr-5 text-sm text-slate-700 shadow-[0_4px_20px_rgba(15,23,42,0.04)] outline-none transition placeholder:text-slate-400 hover:border-slate-300 focus:border-slate-400 focus:ring-4 focus:ring-slate-100"
-            />
-
-          </div>
-        </div>
-
-
-        {/* ========================= */}
         {/* SCORING */}
         {/* ========================= */}
 
@@ -177,8 +156,7 @@ export default function Home() {
 
             {/* KEJANG DEMAM */}
 
-            <GuidelineCard
-              href="/guideline/kejang-demam-anak"
+            <ComingSoonCard
               icon="⚡"
               title="Kejang Demam Anak"
               description="Penilaian klinis dan guideline tatalaksana kejang demam pada anak."
